@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0 ;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:2em auto;
+    background-image: url(FQuEtm6XwAgj6S0.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+hr {
+    opacity:0.5;
+}
+
+li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    opacity: 0.7;
+    padding:5px 10px 5px 10px;
+}
+
+ul > li > a:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+img {
+    max-width:60%;
+    border:2px solid #000;
+    margin-left:500px;
+    
+}
+.header {
+    text-align: center;
+    
+}
+
+.logo {
+    font-size:2em;
+    color:rgb(173, 14, 194);
+    font-weight: 900;
+    margin-bottom:10px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 8px;
+}
+
+.btn {
+    font-size: 1.2em;
+    color:#fff;
+    background-color: rgb(196, 11, 220);
+    box-shadow:1px 1px 1px 1px plum;
+    border:none;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+
+.second {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin: 80px 20px 30px 10px;
+}
+
+.title {
+    padding: 2px;
+    margin:10px 0px 10px 0px;
+    font-weight:800;
+    font-size: 3em;
+    color:#fff;
+    opacity:0.9;
+}
+
+.sub-title {
+    padding: 3px;
+    margin:10px 0px 10px 0px;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size:1.2em;
+    opacity: 0.6;
+    letter-spacing: 0.3px;
+}
+
+.btn.main {
+    text-align:center;
+    margin:0 auto;
+    padding: 10px 5px 10px 5px;
+    margin: 35px 0px 10px 0px;
+    border-radius:5px
+}
+
+@media screen and (min-width:56em){
+    .header {
+        display:flex;
+        align-items: baseline;
+        justify-content: space-around;  
+        padding-bottom:20px; 
+        padding-top: 5px;
+}
+    ul {
+        display:flex
+    }
+    
+    .second {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+
+}
